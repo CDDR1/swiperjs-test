@@ -1,0 +1,76 @@
+/* Common Styles */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+*,
+*::before, 
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+/* End of Common Styles */
+
+/* Carousel Styles */
+.swiper {
+    width: 110rem;
+}
+
+.swiper-slide {
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+    border-radius: 2.5rem;
+}
+
+.slide-1 {
+    background-color: rgb(25, 25, 160);
+}
+
+.slide-2 {
+    background-color: rgb(15, 109, 46);
+}
+
+.slide-3 {
+    background-color: rgb(160, 25, 32);
+}
+
+.slide-4 {
+    background-color: rgb(24, 146, 184);
+}
+
+.slide-5 {
+    background-color: rgb(231, 235, 25);
+}
+
+.slide-6 {
+    background-color: rgb(133, 25, 160);
+}
+/* End of Carousel Styles */
+
+/* Carousel Navigation Buttons */
+.swiper-button {
+    background-color: #00cecb;
+    color: #fff;
+    padding: 2.5rem 2rem;
+    border-radius: 1rem;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: "";
+}
+
+/* Font Awesome arrows inside the buttons */
+i {
+    font-size: 4rem;
+}
+/* End of Font Awesome arrows inside the buttons */
+
+/* End of Carousel Navigation Buttons */
