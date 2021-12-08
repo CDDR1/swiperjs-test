@@ -4,6 +4,12 @@ const swiper = new Swiper('.swiper', {
     slidesPerView: 3,
     spaceBetween: 30,
 
+    effect: 'coverflow',
+    coverflowEffect: {
+        rotate: 50,
+        slideShadows: false,
+    },
+
     // Autoplay 
     autoplay: {
         delay: 4000,
